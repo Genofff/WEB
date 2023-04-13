@@ -19,37 +19,10 @@
   --width-7: clamp(14px, 2vw, 16px);
   --width-8: clamp(14px, 2vw, 14px);
 }
-h1,
-.h1{
- font-size: var(--width-1);
+body.scheme-dark {
+  background-color: var(--main-color-grey);
+  color: var(--secondary-color-dark-white);
 }
-h2,
-.h2{
- font-size: var(--width-2);
-}
-h3,
-.h3{
- font-size: var(--width-3);
-}
-h4,
-.h4{
- font-size: var(--width-4);
-}
-h5,
-.h5{
- font-size: var(--width-5);
-}
-h6,
-.h6{
- font-size: var(--width-6);
-}
-p
-.p{
- font-size: var(--width-8);
-}
-
-
-
 body {
   font-family: var(--font-family);
   background-color: var(--main-color-white);
@@ -60,4 +33,32 @@ body {
 }
 .weight-normal {
   font-weight: var(--font-weight-normal);
+}
+
+h1,
+.h1 {
+  font-size: var(--width-1);
+}
+h2,
+.h2 {
+  font-size: var(--width-2);
+}
+h3,
+.h3 {
+  font-size: var(--width-3);
+}
+h4,
+.h4 {
+  font-size: var(--width-4);
+}
+h5,
+.h5 {
+  font-size: var(--width-5);
+}
+h6,
+.h6 {
+  font-size: var(--width-6);
+}
+p .p {
+  font-size: var(--width-8);
 }
